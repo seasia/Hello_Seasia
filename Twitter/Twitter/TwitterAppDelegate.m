@@ -28,8 +28,6 @@
     // Override point for customization after application launch.
     self.viewController = [[[TwitterViewController alloc] initWithNibName:@"TwitterViewController" bundle:nil] autorelease];
     self.window.rootViewController = self.viewController;
-    
-    
     [self.window makeKeyAndVisible];
     return YES;
 }
